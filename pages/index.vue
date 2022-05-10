@@ -1,5 +1,9 @@
 <template>
-  <h1>hello this is index page</h1>
+  <div>
+    <h1>hello this is index page</h1>
+    <t-button variant="success">Example button</t-button>
+  </div>
+  
 </template>
 
 <script>
