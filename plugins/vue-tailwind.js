@@ -82,7 +82,7 @@ const settings = {
   't-button': {
     component: TButton,
     props: {
-      fixedClasses: 'block px-4 py-2 transition duration-100 ease-in-out focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed rounded-md',
+      fixedClasses: 'px-4 py-2 transition duration-100 ease-in-out focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed rounded-full',
       classes: 'text-white bg-blue-500 border border-transparent shadow-md ',
       variants: {
         secondary: 'text-white bg-gray-500 border border-transparent rounded shadow-md hover:bg-blue-300',
